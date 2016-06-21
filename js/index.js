@@ -15,7 +15,7 @@ $(function(){
     if (city === "NEW YORK" || city === "NEW YORK CITY" || city === "NYC") {
       $("body").attr("class", "nyc");
 
-    } else if (city === "SNA FRANCISCO" || city == "SF" || city == "BAY AREA" ) {
+    } else if (city === "SAN FRANCISCO" || city == "SF" || city == "BAY AREA" ) {
       $("body").attr("class", "sf");
 
     } else if (city === "LOS ANGELES" || city === "LA" || city === "LAX") {
