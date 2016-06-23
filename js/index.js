@@ -8,7 +8,7 @@ $(function(){
     event.preventDefault();
 
     // variable we need to keep track of is the city
-    var city = $("#city-type").val().toUpperCase;
+    var city = $("#city-type").val().toUpperCase();
 
     // create conditionals if, else if, else
     // if user types xyc city, will change body img to xyz city
